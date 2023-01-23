@@ -1,16 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    int a,b;
-    printf("Enter the two number = ");
-    scanf("%d%d",&a,&b);
-    if(a>b)
-    {
-        printf("a is greater");
-    }
-    else
-    {
-        printf("b is greater");
-    }
+    float a = 4;
+    float b = 5;
+    float c= 6;
+    float p = (b*b - 4*a*c)/(2*a);
+    printf("%f",p);  
+
+
     return 0;
 }
